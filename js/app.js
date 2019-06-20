@@ -17,8 +17,20 @@ one of the return values.
 */
 
 
+const checkPalindrome = (str) => {
+	const first = str;
+	const split = str.split('');
+	const reverse = split.reverse('');
+	const join = reverse.join('');
+	if(join === first) {
+		return true;
 
+	} else {
+		return false;
+	}
+}
 
+console.log(checkPalindrome("nurse"));
 
 
 
