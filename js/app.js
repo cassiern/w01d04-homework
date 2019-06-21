@@ -16,7 +16,7 @@ When we console.log the function, it will return
 one of the return values. 
 */
 
-
+/*
 const checkPalindrome = (str) => {
 	const first = str;
 	const split = str.split('');
@@ -31,10 +31,32 @@ const checkPalindrome = (str) => {
 }
 
 console.log(checkPalindrome("nurse"));
+*/
 
 
+//NOT DONE YET PROBLEM 3
+/*
+const sumDigits = (num) => {
+	for (i = 0; i < num; i++) {
+		if (i < num) {
+		const sum = num.split('');
+		return sum.reduce; 
+	} else {
+		return false;
+	}
+}
+}
 
+console.log(sumDigits(42));
+*/
 
+//4. PYTHAGORS
+ function calculateSide(sideA, sideB){
+ 	
+  		return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+ 	}
+
+ 	console.log(calculateSide(8, 6));
 
 
 
