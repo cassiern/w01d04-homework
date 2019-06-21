@@ -34,21 +34,19 @@ console.log(checkPalindrome("nurse"));
 */
 
 
-//NOT DONE YET PROBLEM 3
-/*
-const sumDigits = (num) => {
-	for (i = 0; i < num; i++) {
-		if (i < num) {
-		const sum = num.split('');
-		return sum.reduce; 
-	} else {
-		return false;
-	}
-}
-}
+//PROBLEM 3
 
-console.log(sumDigits(42));
-*/
+// const sumDigits = (num) => {
+// 	let sum = 0; 
+// 	for (i = 0; i <= num; i++) {
+// 		sum += i;
+	
+// 	} return sum;
+// }
+
+
+// console.log(sumDigits(3));
+
 
 //4. PYTHAGORS
 /*
@@ -61,7 +59,7 @@ console.log(sumDigits(42));
 
 */
 //5. SUM ARRAY:
-
+/*
 function sumArray(arr) {
 	let sum = 0;
 	for (i = 0; i < arr.length; i++) {
@@ -70,6 +68,58 @@ function sumArray(arr) {
 	return sum;
 	}
 console.log(sumArray([1, 2, 3, 4, 5, 6]));
+
+*/
+// function checkPrime(prime){
+// 	for (i = 0; i < prime; i++){
+// 		if (i % 1 === 0 || i % i === 0){
+// 			return true;
+// 		} else {
+// 			return false;
+// 		}
+// 	}
+// }
+// console.log(checkPrime(6));
+
+
+// 6. NOT DONE YET (SECOND PART)
+
+function checkPrime(prime) {
+	for (let i = 2; i < prime; i++) {
+		if(prime % i !== 0){
+			return true;
+		} else {
+		} return false;
+	} 
+}
+console.log(checkPrime(7));
+
+
+function printPrime(num) {
+	
+	for (let i = 0; i <= num; i++) {
+		if (checkPrime(i) === true) {
+				//need to make it go up until 97
+			
+			console.log(i);
+		} 
+	}
+}
+console.log(printPrime(97));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
